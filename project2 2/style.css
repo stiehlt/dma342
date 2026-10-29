@@ -21,7 +21,7 @@ body {
 	flex-direction: column;
 	color: var(--color-dark);
 	background: var(--color-paper);
-	font-family: "Imprima", sans-serif;
+	font-family: 'Imprima', sans-serif;
 }
 
 header:not(.site-header):not(.landing-header) {
@@ -50,7 +50,7 @@ h4,
 h5,
 h6 {
 	color: var(--color-brown);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 }
 
 .site-header {
@@ -82,7 +82,7 @@ h6 {
 }
 
 .brand-name {
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: clamp(24px, 3.2vw, 40px);
 	font-variant: small-caps;
 	white-space: nowrap;
@@ -110,7 +110,7 @@ nav a:not(.nav-link) {
 	border: 1px solid var(--color-paper);
 	background: var(--color-brown);
 	color: var(--color-paper);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: 15px;
 	text-decoration: none;
 	white-space: nowrap;
@@ -141,7 +141,7 @@ p {
 
 h1,
 h2 {
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-weight: 400;
 }
 
@@ -398,7 +398,7 @@ footer {
 	border: 1px solid var(--color-paper);
 	background: var(--color-brown);
 	color: var(--color-paper);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	text-decoration: none;
 }
 
@@ -449,7 +449,7 @@ footer {
 .menu-item h3 {
 	margin: 0;
 	color: var(--color-dark);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-weight: 400;
 	line-height: 1.15;
 }
@@ -462,7 +462,7 @@ footer {
 .menu-subheading {
 	margin: 0 0 3px;
 	color: #a38d6b;
-	font-family: "Imprima", sans-serif;
+	font-family: 'Imprima', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: 0.04em;
@@ -502,7 +502,7 @@ footer {
 	width: 44%;
 	height: 1px;
 	background: #aab9ad;
-	content: "";
+	content: '';
 }
 
 .seasonal-group > .menu-subheading,
@@ -625,7 +625,24 @@ footer {
 	width: 48px;
 	height: 44px;
 	place-content: center;
-	clip-path: polygon(50% 0%, 61% 28%, 94% 12%, 78% 43%, 100% 50%, 76% 60%, 91% 91%, 59% 75%, 50% 100%, 41% 75%, 9% 91%, 24% 60%, 0% 50%, 24% 42%, 8% 12%, 40% 28%);
+	clip-path: polygon(
+		50% 0%,
+		61% 28%,
+		94% 12%,
+		78% 43%,
+		100% 50%,
+		76% 60%,
+		91% 91%,
+		59% 75%,
+		50% 100%,
+		41% 75%,
+		9% 91%,
+		24% 60%,
+		0% 50%,
+		24% 42%,
+		8% 12%,
+		40% 28%
+	);
 	background: var(--color-light);
 	color: var(--color-brown);
 	font-size: 7px;
@@ -791,7 +808,7 @@ footer {
 
 .contact-intro p {
 	color: var(--color-dark);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: clamp(14px, 1.75vw, 19px);
 	font-style: italic;
 	line-height: 1.45;
@@ -1238,7 +1255,7 @@ footer {
 	border: 1px solid var(--color-paper);
 	background: var(--color-brown);
 	color: var(--color-paper) !important;
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: 14px;
 	text-decoration: none;
 	white-space: nowrap;
@@ -1261,7 +1278,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	color: var(--color-paper);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: clamp(24px, 3.2vw, 38px);
 	font-variant: small-caps;
 	line-height: 1.05;
@@ -1275,7 +1292,7 @@ footer {
 	height: 1px;
 	margin-top: 45px;
 	background: var(--color-light);
-	content: "";
+	content: '';
 }
 
 .landing-wordmark .cafe-label {
@@ -1283,7 +1300,7 @@ footer {
 	padding: 0 16px;
 	background: var(--color-dark);
 	color: var(--color-light);
-	font-family: "Imprima", sans-serif;
+	font-family: 'Imprima', sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.45em;
 	text-transform: uppercase;
@@ -1515,7 +1532,7 @@ footer {
 	justify-content: center;
 	margin: 0;
 	color: var(--color-dark);
-	font-family: "Imprima", sans-serif;
+	font-family: 'Imprima', sans-serif;
 	font-size: 27px;
 	font-weight: 400;
 	line-height: 0.95;
@@ -1543,6 +1560,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	gap: 20px;
 }
 
 .favorite-item h3 {
@@ -1810,7 +1828,7 @@ footer {
 
 .gallery-wordmark {
 	color: var(--color-paper);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: clamp(20px, 3.5vw, 29px);
 	font-variant: small-caps;
 	text-decoration: none;
@@ -1835,7 +1853,7 @@ footer {
 	border: 1px solid var(--color-paper);
 	background: var(--color-brown);
 	color: var(--color-paper);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: 11px;
 	line-height: 1.05;
 	text-align: center;
@@ -1863,7 +1881,7 @@ footer {
 .gallery-intro h1 {
 	margin: 0;
 	color: var(--color-dark);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.25;
@@ -1910,7 +1928,7 @@ footer {
 	place-items: center;
 	padding: 0 9px;
 	color: var(--color-light);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: 7px;
 	line-height: 1.05;
 	text-align: center;
@@ -1920,9 +1938,20 @@ footer {
 	position: absolute;
 	z-index: -1;
 	inset: 0;
-	clip-path: polygon(50% 0, 61% 34%, 100% 28%, 73% 53%, 85% 96%, 50% 72%, 15% 96%, 27% 53%, 0 28%, 39% 34%);
+	clip-path: polygon(
+		50% 0,
+		61% 34%,
+		100% 28%,
+		73% 53%,
+		85% 96%,
+		50% 72%,
+		15% 96%,
+		27% 53%,
+		0 28%,
+		39% 34%
+	);
 	background: var(--color-dark);
-	content: "";
+	content: '';
 	transform: rotate(12deg);
 }
 
@@ -1944,7 +1973,7 @@ footer {
 	border-radius: 4px;
 	background: var(--color-dark);
 	color: var(--color-paper);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: 13px;
 	text-decoration: none;
 }
@@ -2131,7 +2160,7 @@ footer {
 .news-card-copy h2 {
 	margin: 0 0 4px;
 	color: var(--color-dark);
-	font-family: "Paprika", cursive;
+	font-family: 'Paprika', cursive;
 	font-size: clamp(24px, 3.2vw, 32px);
 	font-weight: 400;
 	line-height: 1.15;
