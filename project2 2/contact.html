@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact | The Daily Grind Café</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Imprima&family=Paprika&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="contact-page">
+		<header class="site-header contact-header">
+			<a class="brand" href="index.html">
+				<img src="img/logo.png" class="logo" alt="The Daily Grind Café logo" />
+				<span class="brand-name">The Daily Grind</span>
+			</a>
+			<nav aria-label="Main navigation">
+				<a class="nav-link" href="gallery.html">Gallery</a>
+				<a class="nav-link" href="news.html">Community News</a>
+				<a class="nav-link" href="about.html">About</a>
+				<a class="nav-link current" href="contact.html" aria-current="page">Contact Us</a>
+			</nav>
+		</header>
+
+		<main class="contact-main">
+			<div class="contact-flourish contact-flourish-top" aria-hidden="true">
+				<svg viewBox="0 0 100 160">
+					<path d="M7 153C35 112 57 70 76 8M23 127c-12-1-18-8-15-16 10 1 16 6 15 16Zm14-22c-2-14 5-21 12-20 2 9-2 16-12 20Zm13-23c-13-7-15-16-9-22 8 5 12 12 9 22Zm12-23c-2-14 4-21 11-21 3 9-1 16-11 21Zm11-23c-12-7-13-16-8-22 8 5 11 12 8 22Z" />
+				</svg>
+			</div>
+			<div class="contact-flourish contact-flourish-mid" aria-hidden="true">
+				<svg viewBox="0 0 70 140">
+					<path d="M5 137C23 98 43 57 65 6M20 107c-12-2-16-9-12-16 9 2 13 7 12 16Zm15-29c-3-13 3-20 10-20 3 9 0 15-10 20Zm12-22c-12-6-15-15-10-21 8 5 12 11 10 21Z" />
+				</svg>
+			</div>
+			<div class="contact-flourish contact-flourish-right" aria-hidden="true">
+				<svg viewBox="0 0 90 140">
+					<path d="M8 135C20 95 43 51 77 7M24 103c-13-1-18-8-15-15 9 1 15 6 15 15Zm12-24c-1-13 5-19 12-19 2 9-2 15-12 19Zm14-23c-12-7-14-15-8-21 8 5 11 12 8 21Zm12-23c-1-13 5-19 12-19 2 9-2 15-12 19Z" />
+				</svg>
+			</div>
+			<div class="contact-flourish contact-flourish-bottom" aria-hidden="true">
+				<svg viewBox="0 0 90 140">
+					<path d="M8 135C20 95 43 51 77 7M24 103c-13-1-18-8-15-15 9 1 15 6 15 15Zm12-24c-1-13 5-19 12-19 2 9-2 15-12 19Zm14-23c-12-7-14-15-8-21 8 5 11 12 8 21Zm12-23c-1-13 5-19 12-19 2 9-2 15-12 19Z" />
+				</svg>
+			</div>
+
+			<section class="contact-intro" aria-labelledby="contact-title">
+				<h1 id="contact-title">Lets Talk Coffee</h1>
+				<p>We’d love to hear from you! Leave us a question, comment, or any information you want us to know!</p>
+			</section>
+
+			<div class="contact-content">
+				<section class="contact-details" aria-labelledby="information-title">
+					<h2 id="information-title">Contact Information</h2>
+					<ul class="contact-list">
+						<li>
+							<svg viewBox="0 0 32 42" aria-hidden="true">
+								<path d="M16 39S3 22 3 15a13 13 0 1 1 26 0c0 7-13 24-13 24Z" />
+								<circle cx="16" cy="15" r="4.5" />
+							</svg>
+							<a href="https://maps.google.com/?q=100+Roast+Ln,+Buffalo+NY+14201">100 Roast Ln, Buffalo NY, 14201</a>
+						</li>
+						<li>
+							<svg viewBox="0 0 36 42" aria-hidden="true">
+								<path d="M8 3 3 7c-2 2 1 12 8 21s16 13 19 10l4-5-10-9-5 5c-4-2-8-6-10-10l5-5Z" />
+							</svg>
+							<a href="tel:+17161000000">(716)-100-0000</a>
+						</li>
+						<li>
+							<svg viewBox="0 0 42 34" aria-hidden="true">
+								<rect x="2" y="3" width="38" height="28" rx="7" />
+								<path d="m4 7 17 13L38 7" />
+							</svg>
+							<a href="mailto:thedailygrind@outlook.com">thedailygrind@outlook.com</a>
+						</li>
+					</ul>
+
+					<div class="contact-hours">
+						<h2>Hours</h2>
+						<p>Mon-Fri 7AM- 5PM Sat-Sun 9AM- 6PM</p>
+					</div>
+				</section>
+
+				<form class="contact-form" action="mailto:thedailygrind@outlook.com" method="post" enctype="text/plain">
+					<div class="form-name-row">
+						<label class="form-field">
+							<span>First Name</span>
+							<input type="text" name="firstName" autocomplete="given-name" />
+						</label>
+						<label class="form-field">
+							<span>Last Name<span aria-hidden="true">*</span></span>
+							<input type="text" name="lastName" autocomplete="family-name" required />
+						</label>
+					</div>
+					<label class="form-field form-email">
+						<span>Email</span>
+						<input type="email" name="email" autocomplete="email" />
+					</label>
+					<label class="form-field form-message">
+						<span>Comment or Message:</span>
+						<textarea name="message" rows="6"></textarea>
+					</label>
+					<button class="send-message" type="submit">Send Message <span aria-hidden="true">⟶</span></button>
+				</form>
+			</div>
+		</main>
+		<footer class="back-home-footer">
+			<a class="back-home-link" href="index.html">← Back to Home</a>
+		</footer>
+	</body>
+</html>
